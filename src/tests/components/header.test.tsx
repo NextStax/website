@@ -3,7 +3,7 @@
  */
 
 import { render, screen } from '@testing-library/react'
-import Header from '@/components/ui/Header'
+import Header from '@/components/Header'
 
 describe('Header', () => {
     test('Header renders correct text', () => {

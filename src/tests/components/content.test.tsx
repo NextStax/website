@@ -3,7 +3,7 @@
  */
 
 import { render } from '@testing-library/react'
-import Content from '@/components/ui/Content'
+import Content from '@/components/Content'
 
 describe('Content', () => {
     test('Content renders correct text', () => {
