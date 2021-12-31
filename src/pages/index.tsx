@@ -1,15 +1,18 @@
-import Header from "@/components/Header"
-import Content from "@/components/Content"
+import Header from '@/components/Header'
+import Container from '@/components/layout/Container'
+import Map from '@/components/Map'
+import SubHeader from '@/components/SubHeader'
 
 export default function Home() {
-  return (
-      <>
-          <main data-testid="index">
-              <div className='h-screen flex flex-col justify-center align-middle text-center'>
-                  <Header />
-                  <Content /> 
-              </div>
-          </main>
-      </>
-  )
+	return (
+		<>
+			<main data-testid='index'>
+				<Container>
+					<Header />
+					<SubHeader />
+					<Map />
+				</Container>
+			</main>
+		</>
+	)
 }

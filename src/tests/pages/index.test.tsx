@@ -12,11 +12,17 @@ describe('Index page', () => {
         expect(index).toBeDefined()
     })
 
-    test('Index page loads header and content components', () => {
+    test('Index page loads header and subheader components', () => {
         const { getByTestId } = render(<Index />)
         const header = getByTestId('header')
-        const content = getByTestId('content')
+        const subheader = getByTestId('subheader')
         expect(header).toBeDefined()
-        expect(content).toBeDefined()
+        expect(subheader).toBeDefined()
+    })
+
+    test('Index page loads the map', () => {
+        const { getByTestId } = render(<Index />)
+        const map = getByTestId('map')
+        expect(map).toBeDefined()
     })
 })
