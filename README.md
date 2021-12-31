@@ -17,10 +17,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
 
@@ -215,14 +216,14 @@ Project Link: [https://github.com/NextStax/website](https://github.com/NextStax/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/NextStax/website.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/NextStax/website.svg?style=flat
 [contributors-url]: https://github.com/NextStax/website/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/NextStax/website.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/NextStax/website.svg?style=flat
 [forks-url]: https://github.com/NextStax/website/network/members
-[stars-shield]: https://img.shields.io/github/stars/NextStax/website.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/NextStax/website.svg?style=flat
 [stars-url]: https://github.com/NextStax/website/stargazers
-[issues-shield]: https://img.shields.io/github/issues/NextStax/website.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/NextStax/website.svg?style=flat
 [issues-url]: https://github.com/NextStax/website/issues
-[license-shield]: https://img.shields.io/github/license/NextStax/website.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/NextStax/website.svg?style=flat
 [license-url]: https://github.com/NextStax/website/blob/main/LICENSE
 [product-screenshot]: public/screenshot.jpg
