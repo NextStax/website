@@ -22,7 +22,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -33,19 +32,19 @@
     <img src="public/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Next.js Project Template</h3>
+<h3 align="center">Next</h3>
 
   <p align="center">
-    A simple Next.js application with TypeScript, Tailwind CSS and testing suite enabled
+    Website for marketing, visualization, account management, and property sales in Next.
     <br />
-    <a href="https://github.com/KennyStanley/nextjs-project"><strong>Explore the docs »</strong></a>
+<!--     <a href="https://github.com/NextStax/website"><strong>Explore the docs »</strong></a> -->
+<!--     <br /> -->
     <br />
-    <br />
-    <!-- <a href="https://github.com/KennyStanley/nextjs-project">View Demo</a>
+    <!-- <a href="https://github.com/NextStax/website">View Demo</a>
     · -->
-    <a href="https://github.com/KennyStanley/nextjs-project/issues">Report Bug</a>
+    <a href="https://github.com/NextStax/website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/KennyStanley/nextjs-project/issues">Request Feature</a>
+    <a href="https://github.com/NextStax/website/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Next.js Project Screenshot][product-screenshot]](https://github.com/KennyStanley/nextjs-project)
+[![Next.js Project Screenshot][product-screenshot]](https://github.com/NextStax/website)
 
 A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.
 
@@ -92,12 +91,14 @@ A starting boilerplate for a TS Next.js project with batteries included. Tailwin
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Typescript](https://www.typescriptlang.org/)
-* [TailwindCSS](https://tailwindcss.com/)
-* [Jest](https://jestjs.io/)
-* [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+* [`Next.js`](https://nextjs.org/) &ndash; framework for React ([docs](https://nextjs.org/docs/getting-started))
+* [`React.js`](https://reactjs.org/) &ndash; ([docs](https://reactjs.org/docs/getting-started.html))
+* [`Typescript`](https://www.typescriptlang.org/)
+* [`threejs`](https://github.com/mrdoob/three.js) &ndash; Javascript 3D library ([docs](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene))
+* [`@react-three/fiber`](https://github.com/pmndrs/react-three-fiber) &ndash; React renderer for threejs ([docs](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction))
+* [`TailwindCSS`](https://tailwindcss.com/) &ndash; styling tool ([docs](https://tailwindcss.com/docs/installation))
+* [`Jest`](https://jestjs.io/)
+* [`React Testing Library`](https://testing-library.com/docs/react-testing-library/intro/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,7 +121,7 @@ Install yarn (or replace yarn commands with the npm equivalent)
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/KennyStanley/nextjs-project.git
+   git clone https://github.com/NextStax/website.git
    ```
 3. Install dependencies
    ```sh
@@ -158,7 +159,7 @@ Install yarn (or replace yarn commands with the npm equivalent)
 - [] Feature 2
 - [] Feature 3
     - [] Nested Feature
-See the [open issues](https://github.com/KennyStanley/nextjs-project/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/NextStax/website/issues) for a full list of proposed features (and known issues).
 <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
@@ -195,7 +196,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Kenny Stanley - [@KennyStanleyJr](https://www.instagram.com/kennystanleyjr/) - kennystanley615@gmail.com
 
-Project Link: [https://github.com/KennyStanley/nextjs-project](https://github.com/KennyStanley/nextjs-project)
+Project Link: [https://github.com/NextStax/website](https://github.com/NextStax/website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -214,16 +215,14 @@ Project Link: [https://github.com/KennyStanley/nextjs-project](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/KennyStanley/nextjs-project.svg?style=for-the-badge
-[contributors-url]: https://github.com/KennyStanley/nextjs-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/KennyStanley/nextjs-project.svg?style=for-the-badge
-[forks-url]: https://github.com/KennyStanley/nextjs-project/network/members
-[stars-shield]: https://img.shields.io/github/stars/KennyStanley/nextjs-project.svg?style=for-the-badge
-[stars-url]: https://github.com/KennyStanley/nextjs-project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/KennyStanley/nextjs-project.svg?style=for-the-badge
-[issues-url]: https://github.com/KennyStanley/nextjs-project/issues
-[license-shield]: https://img.shields.io/github/license/KennyStanley/nextjs-project.svg?style=for-the-badge
-[license-url]: https://github.com/KennyStanley/nextjs-project/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/kpstanleyjr/
+[contributors-shield]: https://img.shields.io/github/contributors/NextStax/website.svg?style=for-the-badge
+[contributors-url]: https://github.com/NextStax/website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/NextStax/website.svg?style=for-the-badge
+[forks-url]: https://github.com/NextStax/website/network/members
+[stars-shield]: https://img.shields.io/github/stars/NextStax/website.svg?style=for-the-badge
+[stars-url]: https://github.com/NextStax/website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/NextStax/website.svg?style=for-the-badge
+[issues-url]: https://github.com/NextStax/website/issues
+[license-shield]: https://img.shields.io/github/license/NextStax/website.svg?style=for-the-badge
+[license-url]: https://github.com/NextStax/website/blob/main/LICENSE
 [product-screenshot]: public/screenshot.jpg
