@@ -18,7 +18,10 @@ export default function CanvasElement({
 	children: React.ReactNode
 }) {
 	return (
-		<div data-testid='map' className='h-full pb-10 px-20 bg-transparent'>
+		<div
+			data-testid='map'
+			className='h-full pb-10 px-2 md:px-10 lg:px-20 bg-transparent'
+		>
 			<Canvas
 				camera={{ fov: 75, near: 0.1, far: 1000, position: [10, 30, 20] }}
 				shadows
