@@ -69,7 +69,7 @@ export default function Building({ ...props }: JSX.IntrinsicElements['mesh']) {
 			castShadow
 			{...props}
 		>
-			<boxBufferGeometry args={[4, 4, 4]} />
+			<boxBufferGeometry args={[4, 12, 4]} />
 			<meshPhongMaterial ref={colorRef} />
 		</mesh>
 	)

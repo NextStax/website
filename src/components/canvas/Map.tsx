@@ -44,12 +44,13 @@ const buildingCount = 500
 for (let i = 0; i < buildingCount; i++) {
 	const xMultiplier = Math.random() > 0.5 ? 100 : -100
 	const zMultiplier = Math.random() > 0.5 ? 100 : -100
-
+	const yMulitplier = Math.random() * 6
 	data.push({
 		id: `${i}`,
 		position: new THREE.Vector3(
 			Math.random() * xMultiplier,
-			2,
+			// Math.random() * yMulitplier,
+			yMulitplier,
 			Math.random() * zMultiplier
 		),
 	})
