@@ -10,7 +10,7 @@ export default function HtmlWrapper({
 			style={{
 				transform: 'translate(-50vw, -50vh)',
 				background:
-					'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
+					'linear-gradient(180deg, rgba(0,0,0,80%) 0%, rgba(0,0,0,0) 100%)',
 			}}
 		>
 			{children}
