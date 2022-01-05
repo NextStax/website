@@ -67,6 +67,7 @@ export default function Building({ ...props }: JSX.IntrinsicElements['mesh']) {
 			onPointerOut={handleHoverOut}
 			onClick={handleClick}
 			castShadow
+			receiveShadow
 			{...props}
 		>
 			<boxBufferGeometry args={[4, 12, 4]} />
