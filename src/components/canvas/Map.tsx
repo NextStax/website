@@ -4,53 +4,23 @@ import { Ground } from './Ground'
 import { Building } from './Building'
 import { Lights } from './Lights'
 
-const buildingData = [
-	{
-		id: '1',
-		position: new THREE.Vector3(0, 2, 0),
-	},
-	{
-		id: '2',
-		position: new THREE.Vector3(5, 2, 0),
-	},
-	{
-		id: '3',
-		position: new THREE.Vector3(-5, 2, 0),
-	},
-	{
-		id: '4',
-		position: new THREE.Vector3(10, 2, 0),
-	},
-	{
-		id: '5',
-		position: new THREE.Vector3(0, 2, -5),
-	},
-	{
-		id: '6',
-		position: new THREE.Vector3(5, 2, -5),
-	},
-	{
-		id: '7',
-		position: new THREE.Vector3(-5, 2, -5),
-	},
-	{
-		id: '8',
-		position: new THREE.Vector3(10, 2, -5),
-	},
-]
+type Building = {
+	id: string
+	position: any
+}
 
-let data = [] as typeof buildingData
-const buildingCount = 500
+let data = [] as Building[]
+const buildingCount = 2500
 for (let i = 0; i < buildingCount; i++) {
-	const xMultiplier = Math.random() > 0.5 ? 100 : -100
-	const zMultiplier = Math.random() > 0.5 ? 100 : -100
-	const yMulitplier = Math.random() * 6
+	const xMultiplier = Math.random() > 0.5 ? 500 : -500
+	const zMultiplier = Math.random() > 0.5 ? 500 : -500
+	const yMultiplier = Math.random() * 6
 	data.push({
 		id: `${i}`,
 		position: new THREE.Vector3(
 			Math.random() * xMultiplier,
 			// Math.random() * yMulitplier,
-			yMulitplier,
+			yMultiplier,
 			Math.random() * zMultiplier
 		),
 	})
