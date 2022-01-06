@@ -26,7 +26,7 @@ extend({ GroundMaterial })
 export default function Ground() {
 	return (
 		<mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
-			<planeBufferGeometry args={[1000, 1000]} />
+			<planeBufferGeometry args={[5000, 5000, 100, 100]} />
 			<meshStandardMaterial color='lightgrey' />
 			{/* @ts-ignore */}
 			{/* <groundMaterial key={GroundMaterial.key} /> */}
