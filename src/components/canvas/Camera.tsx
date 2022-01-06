@@ -3,10 +3,9 @@ import { useThree, useFrame } from '@react-three/fiber'
 
 import { a } from '@react-spring/three'
 import { Scroll } from './Scroll'
-import clamp from 'lodash/clamp'
 
 export function Camera(props: any) {
-	const [y] = Scroll([1, 400], { domTarget: window })
+	const [y] = Scroll([10, 300], { domTarget: window })
 
 	const ref = useRef<any>()
 	const set = useThree((state) => state.set)
@@ -16,7 +15,6 @@ export function Camera(props: any) {
 	}, [])
 	// Update it every frame
 	useFrame(() => {
-		ref.current.lookAt(0, 0, 0)
 		ref.current.updateMatrixWorld()
 	})
 
@@ -26,9 +24,7 @@ export function Camera(props: any) {
 			aspect={window.innerWidth / window.innerHeight}
 			{...props}
 			//@ts-ignore
-			position-y={y.to((y) => clamp(y, 1, 400))}
-			position-x={0}
-			position-z={10}
+			position-y={y.to((y) => y)}
 			onUpdate={(self: any) => self.updateProjectionMatrix()}
 		/>
 	)
