@@ -2,7 +2,6 @@ import Header from '@/components/Header'
 import Container from '@/components/layout/Container'
 import Map from '@/components/canvas/Map'
 import CanvasElement from '@/components/canvas/Canvas'
-import HtmlWrapper from '@/components/canvas/HtmlWrapper'
 import { Sky } from '@react-three/drei'
 
 export default function Home() {
@@ -11,9 +10,6 @@ export default function Home() {
 			<main data-testid='index'>
 				<Container>
 					<CanvasElement>
-						<HtmlWrapper>
-							<Header />
-						</HtmlWrapper>
 						<Map />
 						<Sky
 							distance={450000}
@@ -22,6 +18,7 @@ export default function Home() {
 							azimuth={0.25}
 						/>
 					</CanvasElement>
+					<Header />
 				</Container>
 			</main>
 		</>
