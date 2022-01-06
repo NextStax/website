@@ -1,19 +1,28 @@
-import { OrbitControls } from '@react-three/drei'
+import React, { useRef } from 'react'
+import { extend, useFrame, useThree } from '@react-three/fiber'
 
-export function Controls() {
+import { MapControls } from 'three/examples/jsm/controls/OrbitControls'
+
+extend({ MapControls })
+
+export function Controls(props: any) {
+	const controls = useRef<any>()
+	const { camera, gl } = useThree()
+	useFrame(() => {
+		controls.current?.update()
+	})
 	return (
-		<OrbitControls
-			addEventListener={undefined}
-			hasEventListener={undefined}
-			removeEventListener={undefined}
-			dispatchEvent={undefined}
-			panSpeed={0}
+		//@ts-ignore
+		<mapControls
+			ref={controls}
+			args={[camera, gl.domElement]}
+			enableDamping={true}
+			dampingFactor={0.05}
+			minDistance={10}
+			maxDistance={300}
 			maxPolarAngle={Math.PI / 2 - 0.1}
-			minPolarAngle={0}
-			maxZoom={20}
-			// maxAzimuthAngle={Math.PI / 4}
-			// minAzimuthAngle={-Math.PI / 4}
-			// enableZoom={false}
+			enableZoom={window.innerWidth >= 768 ? false : true}
+			{...props}
 		/>
 	)
 }
