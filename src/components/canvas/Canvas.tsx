@@ -21,8 +21,9 @@ export default function CanvasElement({
 					// gl.outputEncoding = THREE.sRGBEncoding
 				}}
 			>
-				<Camera fov={75} near={0.1} far={1500} position={[10, 100, 20]} />
-				{/* <Controls /> */}
+				<fog attach='fog' args={['rgb(60,50,80)', 0.002, 1000]} />
+				<Camera fov={75} near={0.1} far={1500} position={[0, 200, 40]} />
+				<Controls />
 				<Suspense fallback={<Loader />}>{children}</Suspense>
 			</Canvas>
 		</div>
