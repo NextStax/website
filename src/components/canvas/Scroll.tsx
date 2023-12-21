@@ -4,7 +4,7 @@ import { useCallback, useEffect } from 'react'
 import clamp from 'lodash/clamp'
 
 export function Scroll(bounds: [number, number], props: { domTarget: any }) {
-	const [{ y }, set] = useSpring(() => ({ y: 200, config: config.default }))
+	const [{ y }, set] = useSpring(() => ({ y: 50, config: config.default }))
 	const fn = useCallback(
 		({ xy: [, cy], previous: [, py], memo = y.get() }) => {
 			const newY = clamp(memo + cy - py, ...bounds)
